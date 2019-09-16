@@ -12,7 +12,7 @@ def saveFig(plt, num_sample):
     import os
 
     script_dir = os.path.dirname(__file__)
-    results_dir = os.path.join(script_dir, 'Distribution/')
+    results_dir = os.path.join(script_dir, 'Figures/')
     file_name = "Coin_Toss_numSample:" + str(num_sample) + ".png"
 
     # in case the directory does not exist, create a directory for saving figures.
